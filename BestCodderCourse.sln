@@ -5,13 +5,15 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestCodderCourse", "BestCodderCourse\BestCodderCourse.csproj", "{5E7FE5F7-69C9-45A9-8A42-0F546416F0D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCodder.DataAccess", "BestCodder.DataAccess\BestCodder.DataAccess.csproj", "{EB802E03-3B4A-4C1F-84B1-DBAFC5DBCAF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestCodder.DataAccess", "BestCodder.DataAccess\BestCodder.DataAccess.csproj", "{EB802E03-3B4A-4C1F-84B1-DBAFC5DBCAF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCodder.Common", "BestCodder.Common\BestCodder.Common.csproj", "{13976B77-FA1B-4486-80F6-18F46EBDF63E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestCodder.Common", "BestCodder.Common\BestCodder.Common.csproj", "{13976B77-FA1B-4486-80F6-18F46EBDF63E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCodder.Models", "BestCodder.Models\BestCodder.Models.csproj", "{43FE6E28-4F9A-42DE-9BEB-EEB1074ED95A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestCodder.Models", "BestCodder.Models\BestCodder.Models.csproj", "{43FE6E28-4F9A-42DE-9BEB-EEB1074ED95A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCodder.Business", "BestCodder.Business\BestCodder.Business.csproj", "{E1274634-8463-4EA2-A961-B950DA589523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestCodder.Business", "BestCodder.Business\BestCodder.Business.csproj", "{E1274634-8463-4EA2-A961-B950DA589523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCodder.Api", "BestCodder.Api\BestCodder.Api.csproj", "{77D22D48-48BD-4BAC-B6AD-EBC4AABDC906}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E1274634-8463-4EA2-A961-B950DA589523}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1274634-8463-4EA2-A961-B950DA589523}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1274634-8463-4EA2-A961-B950DA589523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D22D48-48BD-4BAC-B6AD-EBC4AABDC906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D22D48-48BD-4BAC-B6AD-EBC4AABDC906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D22D48-48BD-4BAC-B6AD-EBC4AABDC906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D22D48-48BD-4BAC-B6AD-EBC4AABDC906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
